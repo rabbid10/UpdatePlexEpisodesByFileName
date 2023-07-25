@@ -21,5 +21,6 @@ Update the `shownames` array with the name of the shows you want to update.
 It's recommended that you run the script once with `dryrun` set to `True` to make sure there won't be any unintended consequences.  Once you happy with the predicted ouptut, set `dryrun` to `False` and run the script again.
 
 ## Examples
-The Big Bang Theory (2007) - S01E01 - Pilot => Pilot
-The Big Bang Theory (2007) - S01E02 - The Big Bran Hypothesis => The Big Bran Hypothesis
+ - `The Big Bang Theory (2007) - S01E01 - Pilot` => Pilot
+
+ - `The Big Bang Theory (2007) - S01E02 - The Big Bran Hypothesis` => The Big Bran Hypothesis
