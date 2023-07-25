@@ -10,7 +10,7 @@ Create a separate file called `secrets.py` in the same folder as UpdatePlexEpiso
 
 ### Secrets
 ``` Python
-baseurl = 'http://LocalFQDNOfYourPlexServer'
+baseurl = 'http://LocalFQDNOfYourPlexServer:32400'
 token = 'YourPlexToken'
 ```
 
