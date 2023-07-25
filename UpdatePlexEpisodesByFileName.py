@@ -22,7 +22,7 @@ for showname in shownames:
         newtitle = episode.locations[0]
 
         # Standard Naming
-        newtitle = re.sub('.*?/' + showname + ' - s\d{2,4}e\d{2,4}(?:-e\d{2,4})? - ([^/]+?)\.\w+$', '\g<1>', newtitle, flags=re.IGNORECASE)
+        newtitle = re.sub('.*?/' + showname + '(?: \(\d{4}\))? - s\d{2,4}e\d{2,4}(?:-e\d{2,4})? - ([^/]+?)\.\w+$', '\g<1>', newtitle, flags=re.IGNORECASE)
 
         # Date 1
         newtitle = re.sub('.*?/' + showname + '(?: \(\d{4}\))? - \d{4}-\d{2}-\d{2}(?: \d{2} \d{2} \d{2})? - ([^/]+?)\.\w+$', '\g<1>', newtitle, flags=re.IGNORECASE)
