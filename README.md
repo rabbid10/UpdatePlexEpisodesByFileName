@@ -1,6 +1,6 @@
 # UpdatePlexEpisodesByFileName.py
 
-This script will update the Plex database for specified 'TV Shows' to reflect the name of the episode defined in the file.
+This script will update episode names in the Plex database for specified 'TV Shows' to reflect the name of the episode defined by the file name.
 
 ## Requirements
 plexapi.server - https://github.com/pkkid/python-plexapi
